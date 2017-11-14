@@ -196,7 +196,9 @@ class Contact < ActiveRecord::Base
 #
 #   # Feel free to add other methods here, if you need them.
 #
- end
+end
+
+Contact.auto_upgrade!
 #
 # contact = Contact.new('Betty', 'Maker', 'bettymakes@gmail.com', 'Loves Pokemon')
 # puts contact.email
